@@ -1,0 +1,146 @@
+/*reset*/
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+p {  
+    color:rgb(0, 0, 0);
+    font-size: 1rem;   
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    min-width: 100%;
+}
+main{
+    width: auto;
+    min-width: 100%;
+    margin: 0;
+}
+/***************************************
+************HTML IDNEX******************
+****************************************/
+.container__grid__index{
+    display:grid;
+    grid-template-areas: 
+    "links links links"
+    "content_index content_index content_index"
+     "content_index content_index content_index"
+    "foot foot foot"
+    ;
+}
+.content__nav__menu{
+    grid-area: links;
+  
+}
+.container__home{
+    grid-area: content_index;
+    
+}
+.container__footer{
+    grid-area: foot;
+    background-color: #000127;
+}
+/************************************
+
+**************CSS HEADER*************
+io
+************************************/
+.style__navbar{
+    width: 100%;
+    color:white;
+    background-color: #000222;
+    /*position: fixed;*/
+}
+.style__navbar__logo img{
+    width: 100px;
+  
+}
+.style__navbar__li a{
+    color:rgb(244, 244, 250);
+    margin-left: 20px;
+}
+.style__navbar__li a:hover{
+    color:#000150;
+    background-color: white;
+}
+.page-one-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+}
+.page-one-section video{
+    width: 100%;
+  
+   
+  
+}
+.reporte__xpt__despacho{
+    background-color: rgb(255, 255, 255);
+}
+.title__asignacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color:#000150
+}
+.title__asignacion h3{
+    font-weight: bolder;
+}
+.title__asignacion p{
+    color: #000222;
+    font-weight: bolder;
+}
+.layout__despacho{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+}
+.iframe__layout__despacho{
+    width: 99%;
+    height: 550px;
+}
+
+.title__reporte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color:#000150
+}
+
+.title__reporte h3{
+    font-weight: bolder;
+}
+.title__reporte p{
+    color: #000222;
+    font-weight: bolder;
+
+}
+.report-navigation-bar.custom-themed{
+    background-color: #000150;
+}
+.reporte{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.reporte__despacho{
+    width: 99%;
+    height: 600px;
+}
+.reporte__xpt__retornos{
+    background-color: rgb(3, 22, 130);
+}
