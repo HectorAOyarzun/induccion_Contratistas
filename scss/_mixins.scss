@@ -13,7 +13,7 @@
 }
 @mixin number-security-media{
     display: flex;
-    font-size: 150px;
+    font-size: 100px;
     color: white;
     border-radius: 250px;
     background-color: #001d87;
@@ -23,6 +23,7 @@
     height: 200px;
     //align-items: center;
     margin: 50px;
+    align-items: center;
 }
 @mixin number-security-2{
     display: flex;
@@ -39,7 +40,7 @@
 }
 @mixin number-security-2-media{
     display: flex;
-    font-size: 150px;
+    font-size: 100px;
     color: white;
     border-radius: 250px;
     background-color:#cb001c;
@@ -49,6 +50,7 @@
     height: 200px;
     //align-items: center;
     margin: 50px;
+    align-items: center;
 }
 @mixin one-part{
     display: flex;
@@ -64,10 +66,10 @@
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 150px;
+    margin-left: 10px;
     border-bottom: 2px dashed;
     border-left: 2px dashed;
-    margin-right: 150px;
+    margin-right: 10px;
     box-shadow:  -11px 11px 11px #e3e3e3;
 }
 @mixin two-part{
@@ -85,10 +87,10 @@
     flex-direction: columns;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 150px;
+    margin-left: 10px;
        border-bottom: 2px dashed;
     border-right: 2px dashed;
-    margin-right: 150px;
+    margin-right: 10px;
     flex-direction: column;
     box-shadow: 11px 9px 11px #e3e3e3;
 }
