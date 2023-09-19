@@ -1,0 +1,28 @@
+.img__final{
+    height: 200px;
+}
+
+.enlaces{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #021141;
+        h5{
+        color:white;
+        padding: 40px 0px 20px 0px;
+        }
+        li{
+        padding: 10px 0px 5px 0px; 
+        &:hover{
+        background-color: #05ab9514;
+        }
+        }
+     a{
+         color: #ab0505;
+         text-decoration: none;
+         &:hover{
+            color:white;
+         }
+        }
+}

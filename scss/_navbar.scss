@@ -1,0 +1,21 @@
+.style{
+    &__navbar{
+         width: 100%;
+         color:white;
+         background-color:$colorNav;
+           &__logo img{
+              width: 100px;
+        }
+            &__li a{
+                color:rgb(244, 244, 250);
+                margin-left: 20px;
+                    &:hover{
+                    color:#000150;
+                    background-color: white;
+                }
+        }
+        
+    }
+      
+}
+

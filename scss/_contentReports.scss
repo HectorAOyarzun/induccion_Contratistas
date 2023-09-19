@@ -1,0 +1,24 @@
+.title__reporte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color:#000150;
+    h3{
+        font-weight: bolder;
+    }
+    p{
+        color: #000222;
+        font-weight: bolder;
+    }
+}
+.reporte{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    iframe{
+         width: 99%;
+         height: 600px;
+    }
+}

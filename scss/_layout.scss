@@ -1,0 +1,21 @@
+.container__grid__index{
+    display:grid;
+    grid-template-areas: 
+    "links links links"
+    "content_index content_index content_index"
+     "content_index content_index content_index"
+    "foot foot foot"
+    ;
+}
+.content__nav__menu{
+    grid-area: links;
+  
+}
+.container__home{
+    grid-area: content_index;
+    
+}
+.container__footer{
+    grid-area: foot;
+  
+}
