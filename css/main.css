@@ -49,6 +49,9 @@
 .security__measures h2 {
   text-align: center;
   font-size: 40px;
+  background-color: #e78800;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .security__measures p {
   text-align: center;
@@ -58,12 +61,11 @@
 
 .one {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-left: 150px;
-  border-bottom: 2px dashed;
-  border-left: 2px dashed;
   margin-right: 150px;
+  box-shadow: -6px 6px #eeeeff;
   /* display: flex;
    margin-top: 10px;
    margin-bottom: 10px;
@@ -75,6 +77,7 @@
 
 .speed {
   display: flex;
+  align-items: center;
 }
 .speed h2 {
   display: flex;
@@ -86,6 +89,7 @@
   text-align: center;
   justify-content: center;
   height: 200px;
+  align-items: center;
   margin: 50px;
   /* display: flex;
    font-size: 150px;
@@ -126,17 +130,17 @@
 
 .two {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-left: 150px;
-  border-bottom: 2px dashed;
-  border-right: 2px dashed;
   margin-right: 150px;
   flex-direction: row-reverse;
+  box-shadow: 6px 6px #eeeeff;
 }
 
 .station {
   display: flex;
+  align-items: center;
 }
 .station h2 {
   display: flex;
@@ -148,6 +152,7 @@
   text-align: center;
   justify-content: center;
   height: 200px;
+  align-items: center;
   margin: 50px;
 }
 

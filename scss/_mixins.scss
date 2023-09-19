@@ -8,7 +8,7 @@
     text-align: center;
     justify-content: center;
     height: 200px;
-    //align-items: center;
+    align-items: center;
     margin: 50px;
 }
 @mixin number-security-media{
@@ -35,7 +35,7 @@
     text-align: center;
     justify-content: center;
     height: 200px;
-    //align-items: center;
+    align-items: center;
     margin: 50px;
 }
 @mixin number-security-2-media{
@@ -54,12 +54,13 @@
 }
 @mixin one-part{
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 150px;
-    border-bottom: 2px dashed;
-    border-left: 2px dashed;
+    //border-bottom: 2px dashed;
+    //border-left: 2px dashed;
     margin-right: 150px;
+    box-shadow: -6px 6px #eeeeff;
 }
 @mixin one-part-media{
     display: flex;
@@ -74,13 +75,14 @@
 }
 @mixin two-part{
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 150px;
-       border-bottom: 2px dashed;
-    border-right: 2px dashed;
+    //border-bottom: 2px dashed;
+    //border-right: 2px dashed;
     margin-right: 150px;
     flex-direction: row-reverse;
+     box-shadow: 6px 6px #eeeeff;
 }
 @mixin two-part-media{
     display: flex;

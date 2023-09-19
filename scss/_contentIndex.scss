@@ -5,11 +5,15 @@
     h2{
         text-align: center;
         font-size: 40px;
+        background-color: #e78800;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     p{
         text-align: center;
         font-size: 20px;
         margin-bottom: 20px;
+      
     }
 }
 
@@ -26,6 +30,7 @@
 }
 .speed{
     display: flex;
+    align-items: center;
     h2{
      @include number-security;
      
@@ -52,8 +57,8 @@
     align-items: center;
     h4{
         text-align: center;
-            color: #ad002e;
-    font-weight: 800;
+        color: #ad002e;
+        font-weight: 800;
     }
     p{
         text-align: justify;
@@ -71,6 +76,7 @@
 }
 .station{
         display: flex;
+        align-items: center;
         h2{
             @include number-security-2;
         }
