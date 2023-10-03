@@ -25,6 +25,9 @@
 Prevencion de riesgos
 */
 /*
+Prevencion de riesgos
+*/
+/*
 * Layout
 */
 .style__navbar {
@@ -408,6 +411,156 @@ Prevencion de riesgos
   }
   .container__footer {
     grid-area: foot;
+  }
+  .before__suggestion {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .before__suggestion__number {
+    width: 100%;
+    background-color: #c3c3c3;
+    display: flex;
+    align-items: center;
+  }
+  .before__suggestion__number__box {
+    background-color: rgba(1, 1, 243, 0.53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .before__suggestion__number__box h3 {
+    display: flex;
+  }
+  .before__suggestion__number__box img {
+    width: 100%;
+  }
+  .before__suggestion__text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    padding: 40px;
+  }
+  .before__suggestionInverse {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 10px;
+  }
+  .before__suggestionInverse__number {
+    width: 100%;
+    background-color: #c3c3c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .before__suggestionInverse__number__box {
+    background-color: rgba(0, 0, 0, 0.631372549);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .before__suggestionInverse__number__box h3 {
+    display: flex;
+  }
+  .before__suggestionInverse__number__box img {
+    width: 100%;
+  }
+  .before__suggestionInverse__text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #b7005f;
+    color: white;
+    font-weight: 600;
+    padding: 40px;
+  }
+  .security {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 10px;
+  }
+  .security__number {
+    width: 100%;
+    background-color: #c3c3c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .security__number__box {
+    background-color: rgba(1, 1, 243, 0.53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .security__number__box h3 {
+    display: flex;
+  }
+  .security__number__box img {
+    width: 100%;
+  }
+  .security__text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #110247;
+    color: white;
+    font-weight: 600;
+    padding: 50px;
+  }
+  .security__text h3 {
+    color: #c3c3c3;
+  }
+  .securityInverse {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 10px;
+  }
+  .securityInverse__number {
+    width: 100%;
+    background-color: #c3c3c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .securityInverse__number__box {
+    background-color: rgba(1, 1, 243, 0.53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .securityInverse__number__box h3 {
+    display: flex;
+  }
+  .securityInverse__number__box img {
+    width: 100%;
+  }
+  .securityInverse__text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #4e0000;
+    color: white;
+    font-weight: 600;
+    padding: 50px;
+  }
+  .securityInverse__text h3 {
+    color: #c3c3c3;
   }
   .security__measures {
     display: flex;
