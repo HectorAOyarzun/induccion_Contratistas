@@ -87,7 +87,7 @@ io
 .page-one-section video{
     width: 100%;
   
-   
+  ii 
   
 }*/
 .reporte__xpt__despacho{
@@ -100,6 +100,7 @@ io
     justify-content: center;
     text-align: center;
     color:#000150
+    
 }
 .title__asignacion h3{
     font-weight: bolder;
@@ -228,6 +229,7 @@ io
 .enlaces h5{
     color:white;
     padding: 40px 0px 20px 0px;
+    
 }
 .enlaces li{
     padding: 10px 0px 5px 0px;
