@@ -101,6 +101,7 @@ Prevencion de riesgos
   background-color: #000000;
   color: white;
   font-weight: 600;
+  padding: 30px;
 }
 
 .before__suggestionInverse {
@@ -136,6 +137,7 @@ Prevencion de riesgos
   background-color: #b7005f;
   color: white;
   font-weight: 600;
+  padding: 30px;
 }
 
 .security {
