@@ -14,6 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Data aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+  
     <title>Osorno</title>
 </head>
 <body>
@@ -51,8 +57,8 @@
 </nav>         
 </header>
 <main class="container__home" >
-  <section class="before">
-    <h2 class="before__title" >ANTES DE INGRESAR
+  <section class="before" >
+    <h2 class="before__title animate__animated animate__rubberBand" >ANTES DE INGRESAR
       <p class="before__title__p">Recuerda lo siguiente a tu TEAM</p>
     </h2>
 </section>
@@ -61,13 +67,13 @@
 
 
     <div class="before__suggestion__number">
-      <div class="before__suggestion__number__box">
+      <div data-aos="flip-left" class="before__suggestion__number__box">
       <h3></h3>
-      <img src="./assets/Smartphone.JPG" >
+      <img  src="./assets/Smartphone.JPG" >
       </div>
       
     </div>
-      <div class="before__suggestion__text">
+      <div data-aos="flip-right" class="before__suggestion__text">
         <p>
           En el proceso de despacho, el uso de Smartphone solo esta autorizado para quienes deben escanear el código de su ruta.  
           Para otros fines no relacionados con el proceso su uso esta limitado, salvo que se dirija al área segura del SITE (HALL),
@@ -81,13 +87,13 @@
 
 <section class="before__suggestionInverse">
     <div class="before__suggestionInverse__number">
-      <div class="before__suggestionInverse__number__box">
+      <div class="before__suggestionInverse__number__box" >
       <h3></h3>
-      <img src="./assets/No-foto.JPG" >
+      <img data-aos="zoom-in" src="./assets/No-foto.JPG" >
       </div>
       
     </div>
-      <div class="before__suggestionInverse__text">
+      <div  class="before__suggestionInverse__text" >
         <p>
           Tomar registros fotográficos dentro de las instalaciones se encuentra prohibido sin previa autorización.
         </p>
@@ -95,12 +101,10 @@
     </section>
 
     <section class="before__suggestion">
-
-
     <div class="before__suggestion__number">
       <div class="before__suggestion__number__box">
       <h3></h3>
-      <img src="./assets/app-web.JPG" >
+      <img data-aos="zoom-in" src="./assets/app-web.JPG" >
       </div>
       
     </div>
@@ -116,30 +120,28 @@
     <div class="before__suggestionInverse__number">
       <div class="before__suggestionInverse__number__box">
       <h3></h3>
-      <img src="./assets/epp.JPG" >
+      <img data-aos="zoom-in" src="./assets/epp.JPG" >
       </div>
       
     </div>
-      <div class="before__suggestionInverse__text">
+    
+      <div  class="before__suggestionInverse__text">
         <p>
-          Uso obligatorio de elementos de protección personal. | Calzado de seguridad - Chaleco reflectante.
-         
-
+          Uso obligatorio de elementos de protección personal. | Calzado de seguridad - Chaleco reflectante
         </p>
-     
-
       </div>
+     
     </section>
 
     <section class="before__suggestion">
     <div class="before__suggestion__number">
       <div class="before__suggestion__number__box">
       <h3></h3>
-      <img src="./assets/tiempo.JPG" >
+      <img data-aos="zoom-in" src="./assets/tiempo.JPG" >
       </div>
       
     </div>
-      <div class="before__suggestion__text">
+      <div   class="before__suggestion__text">
         <p>
           15 minutos para realizar el conteo y cargar la paquetría.
            
@@ -152,7 +154,7 @@
     <div class="before__suggestionInverse__number">
       <div class="before__suggestionInverse__number__box">
       <h3></h3>
-      <img src="./assets/paquetes.webp" >
+      <img  data-aos="zoom-in" src="./assets/paquetes.webp" >
       </div>
       
     </div>
@@ -174,7 +176,7 @@
     <div class="security__number">
       <div class="security__number__box">
       <h3></h3>
-      <img src="./assets/velocidad-maxima.jpg" >
+      <img  data-aos="zoom-in" src="./assets/velocidad-maxima.jpg" >
       </div>
       
     </div>
@@ -191,7 +193,7 @@
     <div class="securityInverse__number">
       <div class="securityInverse__number__box">
       <h3></h3>
-      <img src="./assets/llave-auto-tablero.JPG" >
+      <img  data-aos="zoom-in" src="./assets/llave-auto-tablero.JPG" >
       </div>
       
     </div>
@@ -211,7 +213,7 @@
     <div class="security__number">
       <div class="security__number__box">
       <h3></h3>
-      <img src="./assets/freno-mano-2.JPG" >
+      <img  data-aos="zoom-in" src="./assets/freno-mano-2.JPG" >
       </div>
       
     </div>
@@ -230,7 +232,7 @@
     <div class="securityInverse__number">
       <div class="securityInverse__number__box">
       <h3></h3>
-      <img src="./assets/epp.JPG" >
+      <img  data-aos="zoom-in" src="./assets/epp.JPG" >
       </div>
       
     </div>
@@ -248,7 +250,7 @@
     <div class="security__number">
       <div class="security__number__box">
       <h3></h3>
-      <img src="./assets/estacionamiento.jpg" >
+      <img  data-aos="zoom-in" src="./assets/estacionamiento.jpg" >
       </div>
       
     </div>
@@ -301,6 +303,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
 crossorigin="anonymous"></script>
+<!--Data aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </div>
+
 </body>
 </html>

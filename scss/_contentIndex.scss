@@ -1,6 +1,7 @@
 .before{
     //display: flex;
     width: 100%;
+
     &__title{
         @include title-first;
         &__p{
