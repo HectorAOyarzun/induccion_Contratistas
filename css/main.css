@@ -356,6 +356,7 @@ Prevencion de riesgos
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-top: 50px;
 }
 .reporte iframe {
   width: 99%;
