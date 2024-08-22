@@ -1,8 +1,8 @@
 /**
  * @name		jQuery touchTouch plugin
- * @author		Martin Angelov
+ * @author		Hector Oyarzun 
  * @version 	1.0
- * @url			http://tutorialzine.com/2012/04/mobile-touch-gallery/
+ * @url			http://prevesafe.com
  * @license		MIT License
  */
 
